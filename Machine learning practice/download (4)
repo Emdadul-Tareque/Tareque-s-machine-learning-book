@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rss="http://purl.org/rss/1.0/"
+  xmlns:site="http://data.gov.bd/ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://data.gov.bd/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Bangladesh Open Data | Data For All</title>
+  <style type="text/css" media="all">
+@import url("http://data.gov.bd/modules/system/system.base.css?oiximy");
+@import url("http://data.gov.bd/modules/system/system.messages.css?oiximy");
+@import url("http://data.gov.bd/modules/system/system.theme.css?oiximy");
+</style>
+<style type="text/css" media="all">
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.tabs.min.css?oiximy");
+</style>
+<style type="text/css" media="all">
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/date/date_api/date.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/date/date_popup/themes/datepicker.1.7.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/dkan/dkan_data_story/css/dkan_data_story.css?oiximy");
+@import url("http://data.gov.bd/modules/field/theme/field.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/field_hidden/field_hidden.css?oiximy");
+@import url("http://data.gov.bd/modules/node/node.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/panopoly_widgets/panopoly-widgets.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/radix_layouts/radix_layouts.css?oiximy");
+@import url("http://data.gov.bd/modules/user/user.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/views/css/views.css?oiximy");
+</style>
+<style type="text/css" media="all">
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/ctools/css/ctools.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/panels/css/panels.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/themes/contrib/nuboot_radix/panels/layouts/full_width/full_width.css?oiximy");
+@import url("http://data.gov.bd/modules/locale/locale.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/dkan/dkan_topics/theme/dkan_topics.css?oiximy");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open Sans:400,400italic,700,700italic,600,600italic" media="all" />
+<style type="text/css" media="all">
+@import url("http://data.gov.bd/sites/default/files/font-icon-select-general-generated-1.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/modules/dkan/dkan_dataset/css/dkan_dataset.css?oiximy");
+</style>
+<style type="text/css" media="all">
+@import url("http://data.gov.bd/profiles/dkan/themes/contrib/nuboot_radix/assets/css/nuboot_radix.style.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/themes/contrib/nuboot_radix/assets/css/dkan-flaticon.css?oiximy");
+@import url("http://data.gov.bd/profiles/dkan/themes/contrib/nuboot_radix/assets/css/dkan-topics.css?oiximy");
+</style>
+<style type="text/css" media="print">
+@import url("http://data.gov.bd/profiles/dkan/themes/contrib/nuboot_radix/assets/css/print.css?oiximy");
+</style>
+<link type="text/css" rel="stylesheet" href="http://data.gov.bd/sites/default/files/colorizer/nuboot_radix-8ba6a789.css" media="all" />
+
+<!--[if lte IE 9]>
+<style type="text/css" media="all">
+@import url("http://data.gov.bd/profiles/dkan/themes/contrib/nuboot_radix/assets/css/ie.css?oiximy");
+</style>
+<![endif]-->
+
+<!--[if IE 9]>
+<style type="text/css" media="all">
+@import url("http://data.gov.bd/profiles/dkan/themes/contrib/nuboot_radix/assets/css/ie9.css?oiximy");
+</style>
+<![endif]-->
+
+<!--[if IE 8]>
+<style type="text/css" media="all">
+@import url("http://data.gov.bd/profiles/dkan/themes/contrib/nuboot_radix/assets/css/ie8.css?oiximy");
+</style>
+<![endif]-->
+<style type="text/css" media="all">
+@import url("http://data.gov.bd/profiles/dkan/modules/contrib/panopoly_images/panopoly-images.css?oiximy");
+</style>
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link href="/css/ie.css" media="screen" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <script type="text/javascript" src="http://data.gov.bd/profiles/dkan/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"></script>
+<script type="text/javascript" src="http://data.gov.bd/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://data.gov.bd/misc/drupal.js?oiximy"></script>
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.tabs.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/modules/contrib/panopoly_images/panopoly-images.js?oiximy"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/modules/contrib/contact/assets/js/contact-script.js?oiximy"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/libraries/jquery.imagesloaded/jquery.imagesloaded.min.js?oiximy"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/themes/contrib/radix/assets/js/radix.script.js?oiximy"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/themes/contrib/nuboot_radix/assets/js/nuboot_radix.script.js?oiximy"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nuboot_radix","theme_token":"V_V-dFcyrdLqor2b535bh8uXwwKc-4LT4-tlMkQzUqU","js":{"profiles\/dkan\/modules\/contrib\/panopoly_widgets\/panopoly-widgets.js":1,"profiles\/dkan\/modules\/contrib\/panopoly_widgets\/panopoly-widgets-spotlight.js":1,"profiles\/dkan\/modules\/contrib\/panopoly_widgets\/jquery-ui-tabs-rotate.js":1,"profiles\/dkan\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"http:\/\/netdna.bootstrapcdn.com\/bootstrap\/3.1.1\/js\/bootstrap.min.js":1,"profiles\/dkan\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/dkan\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/dkan\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/dkan\/modules\/contrib\/panopoly_images\/panopoly-images.js":1,"profiles\/dkan\/modules\/contrib\/contact\/assets\/js\/contact-script.js":1,"profiles\/dkan\/libraries\/jquery.imagesloaded\/jquery.imagesloaded.min.js":1,"profiles\/dkan\/themes\/contrib\/radix\/assets\/js\/radix.script.js":1,"profiles\/dkan\/themes\/contrib\/nuboot_radix\/assets\/js\/nuboot_radix.script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"profiles\/dkan\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/dkan\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/dkan\/modules\/dkan\/dkan_data_story\/css\/dkan_data_story.css":1,"modules\/field\/theme\/field.css":1,"profiles\/dkan\/modules\/contrib\/field_hidden\/field_hidden.css":1,"modules\/node\/node.css":1,"profiles\/dkan\/modules\/contrib\/panopoly_widgets\/panopoly-widgets.css":1,"profiles\/dkan\/modules\/contrib\/radix_layouts\/radix_layouts.css":1,"modules\/user\/user.css":1,"profiles\/dkan\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dkan\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/dkan\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/dkan\/themes\/contrib\/nuboot_radix\/panels\/layouts\/full_width\/full_width.css":1,"modules\/locale\/locale.css":1,"profiles\/dkan\/modules\/dkan\/dkan_topics\/theme\/dkan_topics.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans:400,400italic,700,700italic,600,600italic":1,"public:\/\/font-icon-select-general-generated-1.css":1,"profiles\/dkan\/modules\/dkan\/dkan_dataset\/css\/dkan_dataset.css":1,"profiles\/dkan\/modules\/dkan\/dkan_dataset\/css\/dkan-flaticon.css":1,"profiles\/dkan\/themes\/contrib\/nuboot_radix\/assets\/css\/nuboot_radix.style.css":1,"profiles\/dkan\/themes\/contrib\/nuboot_radix\/assets\/css\/dkan-flaticon.css":1,"profiles\/dkan\/themes\/contrib\/nuboot_radix\/assets\/css\/dkan-topics.css":1,"profiles\/dkan\/themes\/contrib\/nuboot_radix\/assets\/css\/print.css":1,"http:\/\/data.gov.bd\/sites\/default\/files\/colorizer\/nuboot_radix-8ba6a789.css":1,"profiles\/dkan\/themes\/contrib\/nuboot_radix\/assets\/css\/ie.css":1,"profiles\/dkan\/themes\/contrib\/nuboot_radix\/assets\/css\/ie9.css":1,"profiles\/dkan\/themes\/contrib\/nuboot_radix\/assets\/css\/ie8.css":1,"profiles\/dkan\/modules\/contrib\/panopoly_images\/panopoly-images.css":1}},"urlIsAjaxTrusted":{"\/":true}});
+//--><!]]>
+</script>
+  <link href="/assets/css/obd-style.css" media="screen" rel="stylesheet" type="text/css" /><script src="/assets/js/jquery.min.js" type="application/javascript"></script><script src="/assets/js/obd-script.js" type="application/javascript"></script>  <script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//data.gov.bd/analytics/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-welcome panel-layout-full_width panel-region-middle panel-region-top-first panel-region-top-second" >
+  <div id="main-page">
+    <div id="top-bar">
+      <div id="top-light"></div>
+    </div>
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+        <header id="header" class="header" role="header">
+  <div class="branding container">
+          <a class="logo navbar-btn pull-left" href="/" title="Home">
+        <img src="http://data.gov.bd/sites/default/files/logo.png" alt="Home" />
+      </a>
+        <div class="navigation-wrapper">
+        <ul id="main-menu" class="menu nav navbar-nav">
+          <li class="first leaf active menu-link-home"><a href="/" title="" class="active">Home</a></li>
+<li class="collapsed menu-link-topics"><a  title="">Topics<span class="caret"></span></a></li>
+<li class="leaf menu-link-datasets"><a href="/dataset" title="">Datasets</a></li>
+<li class="leaf menu-link-stories"><a href="/stories" title="">Stories</a></li>
+<li class="last leaf menu-link-about-us"><a href="http://data.gov.bd/about-us" title="">About Us</a></li>
+        </ul>
+    </div>
+      <div class="region region-language">
+    <section id="block-locale-language-content" class="block block-locale block--none clearfix">
+
+        <div class="content">
+  	<ul class="language-switcher-locale-url"><li class="en first active"><a href="/" class="language-link active" xml:lang="en">English</a></li>
+<li class="bn last"><a href="/bn" class="language-link" xml:lang="bn">Bengali</a></li>
+</ul>  </div>
+
+</section>
+  </div>
+  </div>
+</header>
+
+<div id="main-wrapper">
+  <div id="main" class="main">
+    <div class="view view-obd-dkan-topics view-id-obd_dkan_topics view-display-id-obd_top_menu_topics obd-top-menu-topics view-dom-id-59df2a2272a729bbf8c725c699c7fbc3">
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class="">  
+          <a href="/dataset?topics=agriculture"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/agriculture-group_0.png?itok=FgOV4oUj" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=agriculture">Agriculture</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=business"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/business.png?itok=mbgUCRPW" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=business">Business</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=economy"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/economy_0.png?itok=-CC_HGfF" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=economy">Economy</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=education"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/education.png?itok=ot_GUozi" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=education">Education</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=environment"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/enviroment.png?itok=rm_tBcdv" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=environment">Environment</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=finance"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/finance.png?itok=y0xQGGFk" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=finance">Finance</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=health"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/health.png?itok=Xh7RvZAX" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=health">Health</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=infrastructure"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/infrastructure.png?itok=n5zis8TI" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=infrastructure">Infrastructure</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=local-govt"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/local-govt_0.png?itok=6kEfm0iD" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=local-govt">Local-Govt</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=society"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/society.png?itok=QR9aITVy" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=society">Society</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=technology"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/tec1.png?itok=Bi52efs_" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=technology">Technology</a></span>  </li>
+          <li class="">  
+          <a href="/dataset?topics=transport"><img class="thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/thumbnail/public/transport.png?itok=jwbua_58" width="100" height="100" alt="" /></a>    
+          <span class="term-name"><a href="/dataset?topics=transport">Transport</a></span>  </li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>            
+
+    <div class="main-row">
+
+      <section> 
+        <a id="main-content"></a>
+                                                        <div id="home-banner">
+          <div id="home-search">
+                          <div class="site-info">
+                                  <a href="/" title="Home">
+                    <h2 class="site-title">Bangladesh Open Data</h2>
+                  </a>
+                                                  <div class="site-slogan" style="border-bottom: 1px solid #b0cd89;display: inline-block;height: 6px;position: relative;text-align: right; width: 70%;"><span>Data For All</span></div>
+                              </div>
+                        <section id="block-dkan-sitewide-dkan-sitewide-search-bar" class="block block-dkan-sitewide block-- clearfix">
+
+        <div class="content">
+  	<form action="/" method="post" id="dkan-sitewide-dataset-search-form--2" accept-charset="UTF-8" role="form"><div><div class="form-item form-type-textfield form-item-search form-group">
+  <label for="edit-search--2">Search </label>
+ <input placeholder="search" class="form-control form-text" type="text" id="edit-search--2" name="search" value="" size="30" maxlength="128" />
+</div>
+<input type="submit" id="edit-submit--2" name="op" value="" class="form-submit btn btn-default btn-primary" /><input type="hidden" name="form_build_id" value="form-qc2paBWKnCoFECwkbgnNsFP-HOYS8B1mvzzzwGHYPKg" />
+<input type="hidden" name="form_id" value="dkan_sitewide_dataset_search_form" />
+</div></form>  </div>
+
+</section>
+            <div class="quick-navigation">
+              <ul><li><span data-target="latest-dataset">Latest Datasets</span></li><li><span data-target="popular-searches">Popular Searches</span></li><li><span data-target="popular-dataset">Popular Datasets</span></li></ul>              <div class="clear"></div>
+            </div>
+          </div>
+          <div id="statics-data">
+            <div class="block-title">Bangladesh by Numbers</div>
+
+<div class="bangladesh-by-numbers">
+<ul><li><div class="num">1,465</div><div class="sub-title">Per Capita Income (USD)</div></li>
+<li><div class="num">7.11</div><div class="sub-title">GDP Growth Rate (%)</div></li>
+<li><div class="num">117.76</div><div class="sub-title">Mobile Penetration (Mn)</div></li>
+</ul></div>          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="container">
+          <div class="choose-category">Browse Topics</div>
+          <div class="view view-obd-group view-id-obd_group view-display-id-obd_groups obd-home-dataset view-dom-id-85be124dbf35bab963a361ec5bf2049c">
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class="views-row-odd views-row-first item-list">  
+          <div class="term-image"><a href="/group/agriculture"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/agriculture-group_2.png?itok=eJQCokUc" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/agriculture">Agriculture</a></h3>  </li>
+          <li class="views-row-even item-list">  
+          <div class="term-image"><a href="/group/health"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/health-group_0.png?itok=XqEdIrqu" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/health">Health</a></h3>  </li>
+          <li class="views-row-odd item-list">  
+          <div class="term-image"><a href="/group/infrastructure"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/infrastructure-group_0.png?itok=NWaRZoBk" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/infrastructure">Infrastructure</a></h3>  </li>
+          <li class="views-row-even item-list">  
+          <div class="term-image"><a href="/group/finance"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/finance-group_0.png?itok=d2oaIpoz" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/finance">Finance</a></h3>  </li>
+          <li class="views-row-odd item-list">  
+          <div class="term-image"><a href="/group/education"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/education-group_0.png?itok=w6xOoIgc" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/education">Education</a></h3>  </li>
+          <li class="views-row-even item-list">  
+          <div class="term-image"><a href="/group/transport"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/transport-group_0.png?itok=GPCg59bp" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/transport">Transport</a></h3>  </li>
+          <li class="views-row-odd item-list">  
+          <div class="term-image"><a href="/group/technology"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/tec1_0.png?itok=AxaDgmsb" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/technology">Technology</a></h3>  </li>
+          <li class="views-row-even item-list">  
+          <div class="term-image"><a href="/group/society"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/society-group_0.png?itok=5WARJB7j" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/society">Society</a></h3>  </li>
+          <li class="views-row-odd item-list">  
+          <div class="term-image"><a href="/group/local-govt"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/local-govt_1.png?itok=UIrXglis" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/local-govt">Local-Govt</a></h3>  </li>
+          <li class="views-row-even item-list">  
+          <div class="term-image"><a href="/group/environment"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/enviroment-group_0.png?itok=bKoV3wVR" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/environment">Environment</a></h3>  </li>
+          <li class="views-row-odd item-list">  
+          <div class="term-image"><a href="/group/economy"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/economy-group_0.png?itok=YvlADNb9" width="100" height="100" alt="economy" /></a></div>    
+          <h3 class="term-name"><a href="/group/economy">Economy</a></h3>  </li>
+          <li class="views-row-even views-row-last item-list">  
+          <div class="term-image"><a href="/group/business"><img class="media-thumbnail" typeof="foaf:Image" src="http://data.gov.bd/sites/default/files/styles/media_thumbnail/public/business-group_0.png?itok=mxPP2_Cz" width="100" height="100" alt="" /></a></div>    
+          <h3 class="term-name"><a href="/group/business">Business</a></h3>  </li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>          <div class="bangladesh-at-a-glance">Bangaldesh at a Glance</div>
+          <div class="obd-home-block-visualization"><ul class="col-1-3"><li>
+<h6>Bangladesh Literacy Rate - <a href="/dataset/school-and-college">Dataset</a></h6>
+<iframe src="http://data.gov.bd/visualization/chart/?id=1"></iframe>
+</li>
+<li>
+<h6>GDP Growth Rate in Bangladesh - <a href="/dataset/export-and-import-rice-data-bangladesh">Dataset</a></h6>
+<iframe src="http://data.gov.bd/visualization/chart/?id=2"></iframe>
+</li>
+<li>
+<h6>Bangladesh Population by Gender - <a href="/dataset/doctor-directory">Dataset</a></h6>
+<iframe src="http://data.gov.bd/visualization/chart/?id=3"></iframe>
+</li>
+</ul><ul class="col-2-3"><li>
+<h6>National E-Service List - <a href="/dataset/national-e-service-list">Dataset</a></h6>
+<div class="iframe-border">
+<img src="http://data.gov.bd/assets/images/geo-location.png" /></div>
+</li>
+<li>
+<h6>Rice Export from 2010 to 2015- <a href="/dataset/export-and-import-rice-data-bangladesh">Dataset</a></h6>
+<iframe src="http://data.gov.bd/visualization/chart?id=33"></iframe>
+</li>
+</ul></div>          <div class="obd-home-block-content">
+            <ul>
+              <li>
+                <div class="block-title">Popular Searches</div>
+                <div class="obd-home-block popular-searches"><ul><li class="item-list"><a href="/dataset?query=gdp growth rate">GDP Growth Rate</a></li><li class="item-list"><a href="/dataset?query=population census">Population Census</a></li><li class="item-list"><a href="/dataset?query=list of primary schools">List of Primary Schools</a></li><li class="item-list"><a href="/dataset?query=rice production">Rice Production</a></li></ul></div>              </li>
+              <li>
+                <div class="block-title">Popular Datasets</div>
+                <div class="view view-obd-popular-content view-id-obd_popular_content view-display-id-popular_block obd-home-block popular-dataset view-dom-id-b18fac2433d2f1f70a8a0727b5657ff7">
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class="item-list">  
+          <span class="dataset-name"><a href="/dataset/birth-registration-information-system/resource/9bd12c31-df09-4d67-bb7d-a144194f7e4f">Birth Registration Information System</a></span>    
+          <span class="dataset-count"> (13,971)</span>  </li>
+          <li class="item-list">  
+          <span class="dataset-name"><a href="/dataset/doctor-directory">Doctor Directory</a></span>    
+          <span class="dataset-count"> (3,820)</span>  </li>
+          <li class="item-list">  
+          <span class="dataset-name"><a href="/dataset/export-and-import-rice-data-bangladesh">Export and Import Rice data of Bangladesh</a></span>    
+          <span class="dataset-count"> (3,675)</span>  </li>
+          <li class="item-list">  
+          <span class="dataset-name"><a href="/story/capita-income-bangladesh-rises-usd-1466">Per capita income of Bangladesh rises to USD 1,466</a></span>    
+          <span class="dataset-count"> (3,539)</span>  </li>
+          <li class="item-list">  
+          <span class="dataset-name"><a href="/dataset/school-and-college">School-and-College</a></span>    
+          <span class="dataset-count"> (3,460)</span>  </li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>              </li>
+              <li>
+                <div class="block-title">Latest Datasets</div>
+                <div class="view view-obd-latest-datset view-id-obd_latest_datset view-display-id-latest_datset obd-home-block latest-dataset view-dom-id-9bf6846fe4c596fdd01f5cb8181c237b">
+        
+  
+  
+      <div class="view-content">
+          <ul>          <li class="item-list">  
+  <div>        <span class="dataset-name"><a href="/dataset/commercially-sexually-exploited-childrencsec2009">Commercially sexually exploited Children(CSEC)2009</a></span>  </div></li>
+          <li class="item-list">  
+  <div>        <span class="dataset-name"><a href="/dataset/survey-selected-businessssb-2012">Survey of Selected Business(SSB)-2012</a></span>  </div></li>
+          <li class="item-list">  
+  <div>        <span class="dataset-name"><a href="/dataset/informal-sector-surveyiss2009-10">Informal Sector Survey(ISS)2009-10</a></span>  </div></li>
+          <li class="item-list">  
+  <div>        <span class="dataset-name"><a href="/dataset/informal-sector-survey1997">Informal Sector Survey1997</a></span>  </div></li>
+          <li class="item-list">  
+  <div>        <span class="dataset-name"><a href="/dataset/slum-census1997">Slum Census1997</a></span>  </div></li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>              </li>
+              <li>
+                <div class="block-title"><a href="http://data.gov.bd/faqs">Most Downloaded Resources</a></div>
+                <div class="obd-home-block faqs" style="overflow:hidden; padding-bottom:10px">
+                    <ul class="obd-most-download-resource"><li><a class="resource-title" href="/api/download/?id=3b304e3f-cdd7-4c0e-ad03-76873408722d">GDP Growth Rate in Bangladesh<span class="resouce-count">(71909)</span></a></li><li><a class="resource-title" href="/api/download/?id=6946cd70-7388-405d-a4b8-b5cad1e9bfd6">Bangladesh Literacy Rate<span class="resouce-count">(67737)</span></a></li><li><a class="resource-title" href="/api/download/?id=fb91f6bd-084e-4f6a-9c48-80198f4e7fb0">Bangladesh Population Growth Ratio<span class="resouce-count">(67266)</span></a></li><li><a class="resource-title" href="/api/download/?id=7975e610-3816-41bb-ae03-c5d5953583b4">Production of Major Crops 2010-16 (csv)<span class="resouce-count">(9392)</span></a></li><li><a class="resource-title" href="/api/download/?id=e7253498-dfd3-473d-b838-712e4da38a72">Area under cultivation of different crops 2014-15 (csv)<span class="resouce-count">(6672)</span></a></li><li><a class="resource-title" href="/api/download/?id=394bb637-d01a-4272-a6e8-9313c1e5c379">Total Foreign Exchange Reserve 2012-16 (csv)<span class="resouce-count">(4177)</span></a></li><li><a class="resource-title" href="/api/download/?id=f9a99008-5185-450a-81d1-c407d792a99d">Number of Mobile Phone subscribers (2016) (csv)<span class="resouce-count">(4021)</span></a></li><li><a class="resource-title" href="/api/download/?id=2661d189-6130-46cd-92a8-a28aa97b2ced">Number of internet subscribers in Bangladesh (2016) (csv)<span class="resouce-count">(3972)</span></a></li><li><a class="resource-title" href="/api/download/?id=79ca4bb3-14e0-4856-946d-d0a0ea0c8257">GNI at Current and Constant Market Places 2012-16 (csv)<span class="resouce-count">(3859)</span></a></li><li><a class="resource-title" href="/api/download/?id=638f4a5e-97e3-4681-85f7-284f93eec40c">School-and-College<span class="resouce-count">(3846)</span></a></li></ul>                </div>
+              </li>
+			                <li>
+                <div class="block-title">Quick Links</div>
+                <div class="obd-home-block faqs"><ul><li class="item-list">
+<a href="http://www.bangabhaban.gov.bd" target="_blank">President’s Office</a>
+</li>
+<li class="item-list">
+<a href="http://www.pmo.gov.bd" target="_blank">Prime Minister's Office</a>
+</li>
+<li class="item-list">
+<a href="http://www.cabinet.gov.bd" target="_blank">Cabinet Division</a>
+</li>
+<li class="item-list">
+<a href="http://www.bcc.gov.bd/" target="_blank">Bangladesh Computer Council (BCC)</a>
+</li>
+<li class="item-list">
+<a href="http://www.bbs.gov.bd" target="_blank">Bangladesh Bureau of Statistics</a>
+</li>
+<li class="item-list">
+<a href="http://www.sid.gov.bd" target="_blank">Statistics and Informatics Division</a>
+</li>
+</ul></div>              </li>
+              <li>
+                <div class="extra-link"><p><a href="/apps">
+<img src="/assets/images/download-apps.png" /></a>
+<a href="/request-dataset">
+<img src="/assets/images/request-dataset.png" /></a>
+<a href="/contact">
+<img src="/assets/images/feedback.png" /></a></p></div>              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+<style type="text/css">
+.obd-most-download-resource{ width:100%; margin:0; padding:0}
+.obd-most-download-resource li{ list-style:none}
+</style>
+<footer id="footer" class="footer" role="footer">
+  <div class="container">
+    <div class="footer-navigation"><ul id="footer-menu"><li><a href="http://data.gov.bd/terms-of-use">Terms of Use</a></li><li><a href="http://data.gov.bd/faqs">FAQs</a></li><li><a href="privacy-policy">Privacy Policy</a></li><li><a href="site-map">Site Map</a></li></ul></div><div>
+      <div id="govt-credits">
+        <div class="planning-implementation">
+          Planning and Implementation: PMO, Cabinet, BCC,BBS and SID
+        </div>
+        <div class="technical-support">
+          Technical Support:
+              <a class="credits" href="http://a2i.pmo.gov.bd" target="_blank">
+                <img src="/assets/images/a2i.png" alt="a2i"/>
+              </a>
+              <a class="credits" href="http://www.bbs.gov.bd" target="_blank">
+                <img src="/assets/images/bbs.png" alt="bbs"/>
+              </a>
+        </div>
+      </div>
+      <div id="developer-credits">
+        <div class="developer-credits">Developer Credits</div>
+        <a class="credits" href="http://www.orangebd.com" target="_blank">
+          <img src="/assets/images/orangebd.png" alt="orangebd" height="25"/>
+        </a>
+        <a class="credits" href="http://www.lightcastlebd.com" target="_blank">
+          <img src="/assets/images/light-castle-partners.png" alt="light-castle-partners" height="25"/>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>  </div>
+</footer>    <script type="text/javascript" src="http://data.gov.bd/profiles/dkan/modules/contrib/panopoly_widgets/panopoly-widgets.js?oiximy"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/modules/contrib/panopoly_widgets/panopoly-widgets-spotlight.js?oiximy"></script>
+<script type="text/javascript" src="http://data.gov.bd/profiles/dkan/modules/contrib/panopoly_widgets/jquery-ui-tabs-rotate.js?oiximy"></script>
+  </div>
+  <img id="scroll-top" src="/assets/images/scroll-top.png">
+</body>
+</html>
